@@ -44,20 +44,18 @@ body {
 
 /* Border radius not working on image and its wrapper */
 .card .qr-wrapper {
-  border-radius: 10px;
   margin: auto;
   width: 288px;
   height: 288px;
   margin-top: var(--space-200);
   padding-bottom: var(--space-300);
-  border-radius: 3%;
-  
 }
 
 .card .qr-wrapper .qr-code {
   width: 288px;
   height: 288px;
-  /* display: block; */
+  display: block;
+  border-radius: 3%; /* Border Radius must be applied on the image */
 }
 
 .card .card-text-area {
